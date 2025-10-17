@@ -10,7 +10,7 @@ responses = {
 
 def chatbot_response(user_input):
     user_input = user_input.lower()
-    return responses.get(user_input, responses["default"])
+    return responses.get(user_input, responses["defaulthaahahahaa"])
 
 while True:
     user_input = input("You: ")
